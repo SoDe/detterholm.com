@@ -1,0 +1,99 @@
+body {
+	padding: 0; 
+	margin: 0;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+#header {
+	text-align: left;
+	line-height: 30px;
+	background: #453b60;
+}
+
+#header h1 {
+	color:#fff;
+	margin: 0;
+	padding: 20px;
+}
+
+	
+#menycontainer{ 
+	text-align: left; 
+	padding-left: 5em; 
+	padding-top: 1em; 
+	border-bottom: 1px solid #000000; 
+	background: #453b60 url(menu.jpg) no-repeat center;
+}
+	
+#menycontainer ul{
+	padding: 0.4em 0; 
+	margin: 0;  
+	font: 80% Verdana, Helvetica, sans-serif;
+}
+	
+#menycontainer li{
+	margin: 0; 
+	display: inline; 
+	list-style: none;
+}
+	
+#menycontainer li a{
+	text-decoration: none; 
+	padding: 0.4em 2em; 
+	margin-left: 1em; 
+	border: 1px solid #000; 
+	border-bottom: none; 
+	background: #fff;
+}
+	
+#menycontainer a:link{
+	color: #000000;
+}
+	
+#meny a:visited{
+	color: #000000;
+}
+	
+#menycontainer a:hover{
+	border-color: #666666;
+}
+	
+#menycontainer a#current{
+	background: #ffffff; 
+	border: 1px solid #000000; 
+	border-bottom: 1px solid #ffffff; 
+	color: #000000;
+
+}
+#wrapper {
+	width: 1023px;
+	margin: 80px auto;
+	background: #fff;
+}
+
+#content{
+	margin-top: 30px;
+	margin-left: 90px;
+	padding: 0; 
+	width: 1024px;
+}
+
+#imgcontent{
+	margin-top: 30px;
+	margin-left: 90px;
+	padding: 0; 
+	
+}
+
+#contact{
+	margin-top: 30px;
+	margin-left: 90px; 
+	padding: 0; 
+	width: 200px;
+}
+
+table {
+	border-spacing: 50px;
+	padding: 0;
+	
+}
