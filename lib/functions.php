@@ -1,7 +1,7 @@
 <?php
 	/*
 	 * @page index.php
-	 * Fetches a specific image from the database based on the supplied ID.
+	 * Hämtar en speciell bild från databasen baserat på ID
 	 */
 	function showOriginalImage($id) {
 		global $currentCatID;
@@ -25,7 +25,8 @@
 	
 	/*
 	 * @page index.php
-	 * Prints out the currently available categories as links.
+	 * Skriver ut tillgängliga kategorier som länkar
+	 */
 	 */
 	function displayCategorys($currentCatID)
 	{
@@ -49,7 +50,7 @@
 	
 	/*
 	 * @page index.php
-	 * Create a thumbnail gallery with the ability to pick a category through GET[catID]
+	 * Skapar ett thumbnail-galleri och ger möjligheten att välja kategori genom GET[catID]
 	 */
 	function createGallery($catId)
 	{
@@ -94,7 +95,7 @@
 	
 	/*
 	 * @page backend.php
-	 * Creates a thumbnail from the uploaded file.
+	 * Skapar en thumbnil från den uppladdade filen.
 	 */
 	 function make_thumb($src,$dest,$desired_width, $mime=null)
 	{
@@ -129,7 +130,7 @@
 	
 	/*
 	 * @page backend.php
-	 * Save the image data to the database after a successful upload.
+	 * Sparar image-data till databasen efter en lyckad uppladdning.
 	 */
 	function saveImgNameToDB($imgName)
 	{
@@ -156,7 +157,7 @@
 	
 	/*
 	 * @page backend.php
-	 * Validates the file type.
+	 * Validerar fil-typen.
 	 */
 	function validateImage($img=null)
 	{
@@ -171,7 +172,7 @@
 	
 	/*
 	 * @page backend.php
-	 * Uploades the image
+	 * Laddar upp bilden
 	 */
 	function saveUploadedImage($arr=Array()) {
 		$dest_orig = substr(md5(rand(0,1000).$dest_orig), 5, 6)."_".$arr['name'];
@@ -196,7 +197,7 @@
 	
 	/*
 	 * @page backend.php / login
-	 * If the correct credentials are supplied the user will be logged in.
+	 * Om uppgifterna stämmer så loggas användaren in.
 	 */
 	 function do_login() {
 	 	
@@ -218,10 +219,10 @@
 	 
 	 /*
 	  * @page backend.php / logout
-	  * Yes, it magically IS logging the user OUT, wow! xD
+	  * Japp, användaren loggas ut. :)
 	  */
 		function do_logout() {
 			$_SESSION['admin'] = false;
-			$_SESSION['message'] = "Nu är du utloggad *Mr. Obvious*";
+			$_SESSION['message'] = "Nu är du utloggad!";
 			header('Location: index.php');
 		}
