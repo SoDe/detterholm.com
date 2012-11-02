@@ -47,7 +47,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/lib/functions.php');
         <!-- Tell Google that we're already on the mobile version -->
         <link rel="alternate" media="handheld" href="" />
         
-		<link href="/lib/css/desktop.css" rel="stylesheet" type="text/css">
+		<link href="/lib/css/generic-mobile.css" rel="stylesheet" type="text/css">
 	
 	</head>
 	<body>
