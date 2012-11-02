@@ -7,7 +7,7 @@ body {
 #header {
 	text-align: left;
 	line-height: 30px;
-	background: #7813b1;
+	background: #453b60;
 }
 
 #header h1 {
@@ -56,8 +56,6 @@ body {
 	
 #menycontainer a:hover{
 	border-color: #666666;
-	background-color:#ff00ff;
-	color:#fff;
 }
 	
 #menycontainer a#current{
