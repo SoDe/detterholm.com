@@ -27,7 +27,6 @@
 	 * @page index.php
 	 * Skriver ut tillgängliga kategorier som länkar
 	 */
-	 */
 	function displayCategorys($currentCatID)
 	{
 		global $dbConn;

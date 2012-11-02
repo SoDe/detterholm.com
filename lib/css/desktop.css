@@ -56,6 +56,9 @@ body {
 	
 #menycontainer a:hover{
 	border-color: #666666;
+	background-color:#a5aaae;
+	color:#fff;
+}
 }
 	
 #menycontainer a#current{
@@ -64,11 +67,6 @@ body {
 	border-bottom: 1px solid #ffffff; 
 	color: #000000;
 
-}
-#wrapper {
-	width: 1023px;
-	margin: 80px auto;
-	background: #fff;
 }
 
 #content{
